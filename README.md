@@ -9,9 +9,10 @@ The codes here underpin the data analysis and theoretical arguments in
 
 ### Outline of the files ###
 
-Repository includes a set of Python files for the analysis of the mRNA count data associated with the study by Hagai et al. Nature volume 563, pages 197–202 (2018).
+Repository includes a set of Python files for the analysis of the mRNA count data associated with the study by Hagai et al. Nature volume 563, pages 197–202 (2018). The code, among many things displays fitted mean-variance relationships for mouse and orthologue genes.
 
-In order to load the data, first execute 001_Data_Setup which allows to oped the original data, followed by 002_Burst_Model_fitting which fits Beta-Posisson model for all the response genes. Subsequently, two analysis piplines are provied for the mouse and the all species data, wich should be executed with appriopriate order- as indicated in the naming noatation. Aditional files allow extraction of mRNA count distibutions and additional analyses.
+Raw data, i.e., E-MTAB-6754.processed.2.zip file, should be downloaded from ArrayEpress (E-MTAB-674) and copierd into Data/ArrayExpress folder. In order to work with the dat, first execute 001_Data_Setup which allows to open the original data, followed by 002_Burst_Model_fitting which fits Beta-Posisson model for all the response genes. Subsequently, two analysis piplines are provied for the mouse and the all species data, wich should be executed with appriopriate order- as indicated in the naming noatation. Aditional files allow extraction of mRNA count distibutions and additional analyses.
+
 
 
 ## Python environment
